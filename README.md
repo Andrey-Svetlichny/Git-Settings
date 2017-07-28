@@ -16,4 +16,15 @@ git config --global alias.lg "log --graph --abbrev-commit --decorate --date=rela
 ```
 git config --global alias.s "status -s"
 ```
+## Merge
 
+```
+git config --global --add diff.guitool kdiff3
+git config --global --add merge.tool kdiff3
+```
+
+or
+
+```
+git config --global merge.tool meld
+```
