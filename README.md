@@ -20,6 +20,8 @@ git config --global alias.s "status -s"
 
 ```
 git config --global --add diff.guitool kdiff3
+git config --global difftool.prompt false
+
 git config --global --add merge.tool kdiff3
 ```
 
