@@ -9,7 +9,7 @@ git log --stat --oneline
 
 ### lg
 ```
-git config --global alias.lg "log --graph --abbrev-commit --decorate --date=relative --pretty=format:'%C(dim yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+git config --global alias.lg "log --graph --abbrev-commit --decorate --date=relative --pretty=format:'%C(dim yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cgreen<%an>%Creset'"
 ```
 
 ### s
