@@ -5,7 +5,7 @@
 git log --stat --oneline
 ```
 
-## alias
+## Alias
 
 ### lg
 ```
