@@ -12,6 +12,11 @@ git log --stat --oneline
 git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %>(13)%cr %C(green)%<(15,trunc)%an%Creset %C(yellow)%d%Creset %s'"
 ```
 
+alternative (without author name)
+```
+git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %>(13)%cr %C(yellow)%d%Creset %s' --date=short"
+```
+
 ### s
 ```
 git config --global alias.s "status -s"
