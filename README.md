@@ -35,3 +35,11 @@ or
 ```
 git config --global merge.tool meld
 ```
+## Diff in Total Commander
+
+Change button bar, add kdiff3
+
+Parameters:
+```
+%X"%P%N" "%T%M"
+```
