@@ -59,12 +59,12 @@ git log --pretty=format:"%h %an" --stat *FactLoadByCar*.cs
 ### Show deleted file
 git show a705c529 -- ELIS_Service/WebAPI/FactLoadByCarWebAPI.cs
  
-# Checkout deleted file
+### Checkout deleted file
 git checkout a705c529 -- ELIS_Service/WebAPI/FactLoadByCarWebAPI.cs
 
-# Compare current file version with old
+### Compare current file version with old
 git difftool fcdc2016 Head ELIS_Service/Services/FactLoadService.cs
 
-# Log format
+### Log format
 git log --pretty=format:"%C(yellow)%h%Creset %ad %C(green)%an" --date=format:"%y-%m-%d %H:%m" --stat *ByCar*.cs
 
