@@ -9,12 +9,13 @@ git log --stat --oneline
 
 ### lg
 ```
-git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %>(13)%cr %C(green)%<(15,trunc)%an%Creset %C(yellow)%d%Creset %s'"
+git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %>(13)%ar %C(yellow)%d%Creset %s'"
 ```
 
-alternative (without author name)
+### lg2
+alternative (with author name, absolute date)
 ```
-git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %>(13)%cr %C(yellow)%d%Creset %s' --date=short"
+git config --global alias.lg2 "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%x09%>(13)%ad %C(green)%<(15,trunc)%an%Creset %C(yellow)%d%Creset %s' --date=format:'%y-%m-%d %H:%m'"
 ```
 
 ### s
