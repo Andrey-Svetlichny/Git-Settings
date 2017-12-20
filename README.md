@@ -1,5 +1,9 @@
 # Git-Settings
 
+## russian characters in filenames
+
+git config --global core.quotepath false
+
 ## log with filenames
 ``` git
 git log --stat --oneline
