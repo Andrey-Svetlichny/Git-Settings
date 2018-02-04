@@ -4,11 +4,6 @@
 
 git config --global core.quotepath false
 
-## log with filenames
-``` git
-git log --stat --oneline
-```
-
 ## Alias
 
 ### lg
@@ -51,6 +46,15 @@ Parameters:
 or
 ```
 %C1 %C2
+```
+
+## Notepad++ from command line
+add file c:\Users\Andrey\.bash_profile
+```
+function npp {
+    "C:\Program Files (x86)\Notepad++\notepad++.exe" -multiInst -notabbar -nosession -noPlugin "$*";
+}
+export -f npp;
 ```
 
 ## Useful commands 
