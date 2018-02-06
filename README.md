@@ -1,8 +1,11 @@
 # Git-Settings
 
-## russian characters in filenames
-
+## Russian characters 
+### filenames
 git config --global core.quotepath false
+
+### gitk
+git config --global gui.encoding utf-8
 
 ## Alias
 
