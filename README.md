@@ -31,6 +31,7 @@ git config --global --add diff.tool kdiff3
 git config --global difftool.prompt false
 
 git config --global --add merge.tool kdiff3
+git config --global mergetool.keepBackup false
 ```
 
 or
