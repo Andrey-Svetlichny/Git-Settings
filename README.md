@@ -27,7 +27,7 @@ git config --global alias.s "status -s"
 ## Merge
 
 ```
-git config --global --add diff.tool kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
+git config --global --add difftool.kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
 git config --global difftool.prompt false
 
 git config --global --add mergetool.kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
