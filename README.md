@@ -45,10 +45,6 @@ Change button bar, add kdiff3
 
 Parameters:
 ```
-%X"%P%N" "%T%M"
-```
-or
-```
 %C1 %C2
 ```
 
