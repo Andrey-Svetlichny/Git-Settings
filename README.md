@@ -88,3 +88,13 @@ git difftool fcdc2016 Head ELIS_Service/Services/FactLoadService.cs
 ```
 git log --pretty=format:"%C(yellow)%h%Creset %ad %C(green)%an" --date=format:"%y-%m-%d %H:%m" --stat *ByCar*.cs
 ```
+
+### Rewrite history
+```
+git log --pretty=format:'%C(yellow)%h%Creset%  %ad %cd%Creset %C(yellow)%d%Creset %s' --date=format:'%y-%m-%d %H:%m'
+git rebase -i --root
+git filter-branch --env-filter 'GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE; export GIT_COMMITTER_DATE'
+
+git reflog expire --all --expire=now
+git gc --prune=now --aggressive
+```
