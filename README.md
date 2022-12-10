@@ -14,7 +14,7 @@ git config --global gui.encoding utf-8
 
 ### lg
 ```
-git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%x09%>(13)%ad %C(green)%<(15,trunc)%an%Creset %C(yellow)%d%Creset %s' --date=format:'%y-%m-%d %H:%m'"
+git config --global alias.lg "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%x09%>(13)%ad %C(green)%<(15,trunc)%an%Creset %C(yellow)%d%Creset %s' --date=format:'%y-%m-%d %H:%M'"
 ```
 
 ### lg2
