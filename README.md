@@ -101,3 +101,8 @@ git filter-branch --env-filter 'GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE; export GIT_
 git reflog expire --all --expire=now
 git gc --prune=now --aggressive
 ```
+
+### Fix filename too long in Git for Windows
+```
+git config --system core.longpaths true
+```
