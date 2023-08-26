@@ -3,7 +3,7 @@
 ## git-diff to ignore ^M
 git config --global core.whitespace cr-at-eol
 
-## Russian characters 
+## Encodings 
 ### filenames
 git config --global core.quotepath false
 
