@@ -51,6 +51,15 @@ Parameters:
 %C1 %C2
 ```
 
+**VS Code diff**
+```
+code -n -w --diff
+```
+Parameters:
+```
+%C1 %C2
+```
+
 ## Notepad++ from command line
 add file c:\Users\Andrey\.bash_profile
 ```
